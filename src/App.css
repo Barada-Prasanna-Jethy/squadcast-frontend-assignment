@@ -1,0 +1,33 @@
+:root {
+  background-color: #f1f1f1;
+}
+
+.mentionInput {
+  width: 500px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #a6a6a6;
+}
+.mentionContainer {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  margin: 70px 0px;
+}
+.mentionOptionList {
+  background-color: white;
+  list-style-type: none;
+  border: 1px solid #a6a6a6;
+  border-radius: 0 0 5px 5px;
+  margin: 0;
+  padding: 0;
+  border-top: none;
+}
+.mentionItem {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.mentionItem:hover {
+  background-color: #dcdcdc;
+}
